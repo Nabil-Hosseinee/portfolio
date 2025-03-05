@@ -126,6 +126,7 @@ ul {
     border: none;
     background-color: var(--skin-color);
     transition: all .3s ease;
+    cursor: pointer;
 }
 
 .btn:hover {
@@ -624,7 +625,13 @@ h3.my-profession {
     flex: 0 0 33.33%;
     max-width: 33.33%;
     margin-bottom: 30px;
+    transition: all .3s ease;
 }
+
+.portfolio .portfolio-item:hover {
+    transform: scale(1.1);
+}
+
 
 .portfolio .portfolio-item-inner {
     border: 6px solid var(--bg-black-100);
